@@ -1,0 +1,39 @@
+spring:
+  jackson:
+    date-format:   'yyyy-MM-dd HH:mm:ss'
+    time-zone:   GMT+8
+  aop:
+    proxy-target-class: true
+  mvc:
+    static-path-pattern: /**
+
+  datasource:
+    url: 'jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false'
+    username: root
+    password: 123456
+    driver-class-name: 'com.mysql.cj.jdbc.Driver'
+
+  jpa:
+    database: MYSQL
+    show-sql: true
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        format_sql: true
+
+mqtt:
+  serverUrl: tcp://192.168.100.151:1883
+  client:
+    id: ${random.value}
+  topic: testTopic
+
+
+logging:
+  level:
+    com.chuansen: debug
+
+

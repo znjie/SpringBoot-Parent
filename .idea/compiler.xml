@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="elasticsearch_7_13_0-service" />
+        <module name="emqx_mqtt-service" />
+        <module name="redis-service" />
+        <module name="thread_concurrency-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

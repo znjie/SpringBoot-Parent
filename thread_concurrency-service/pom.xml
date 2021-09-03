@@ -9,6 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <artifactId>thread_concurrency-service</artifactId>
+
     <repositories>
         <repository>
             <id>aliyun</id>
@@ -19,8 +21,6 @@
             </snapshots>
         </repository>
     </repositories>
-
-    <artifactId>elasticsearch_7_13_0-service</artifactId>
 
     <dependencies>
         <dependency>
@@ -42,16 +42,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
             <version>2.3.12.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId><!-- 数据库操作集成组件 -->
-            <version>2.1.6.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-commons</artifactId>
-            <version>2.3.1.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>mysql</groupId>
@@ -78,29 +68,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.10</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.51</version>
-        </dependency>
-
-
-        <dependency>
-            <groupId>org.elasticsearch</groupId>
-            <artifactId>elasticsearch</artifactId>
-            <version>7.13.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.elasticsearch.client</groupId>
-            <artifactId>elasticsearch-rest-high-level-client</artifactId>
-            <version>7.13.0</version>
         </dependency>
     </dependencies>
 </project>
