@@ -1,44 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb6b5627-5edb-449f-bc5f-be80ba4532c4" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/emqx_mqtt-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emqx_mqtt-service/src/main/java/com/chuansen/system/SpringBootMqttApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emqx_mqtt-service/src/main/java/com/chuansen/system/config/MqttConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emqx_mqtt-service/src/main/java/com/chuansen/system/config/MqttPushClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emqx_mqtt-service/src/main/java/com/chuansen/system/config/PushCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emqx_mqtt-service/src/main/java/com/chuansen/system/controller/MqttController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emqx_mqtt-service/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emqx_mqtt-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/StartApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/config/RedisAsync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/controller/AvalancheController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/controller/BreakdownController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/controller/PenetrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/controller/TestData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/dao/SystemLogRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/entity/SystemLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/service/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/service/SystemLogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/util/RedisConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/util/RedisUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread_concurrency-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch_7_13_0-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch_7_13_0-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch_7_13_0-service/src/main/resources/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/elasticsearch_7_13_0-service/target/" />
-    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
-    <ignored path="$PROJECT_DIR$/redis-service/target/" />
-    <ignored path="$PROJECT_DIR$/emqx_mqtt-service/target/" />
-    <ignored path="$PROJECT_DIR$/thread_concurrency-service/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="bb6b5627-5edb-449f-bc5f-be80ba4532c4" name="默认更改列表" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,9 +20,6 @@
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="271" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -138,13 +101,10 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven/apache-maven-3.5.2" />
+        <option name="localRepository" value="D:\tools\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../tools/maven/apache-maven-3.8.2" />
+        <option name="userSettingsFile" value="D:\tools\maven\apache-maven-3.8.2\conf\settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -167,6 +127,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1035" />
   </component>
+  <component name="ProjectId" id="1xqJEul8TcvJLy21D9FPA3Ot1jC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="添加" />
   </component>
@@ -251,34 +212,48 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1630657768936" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/~workspace~/yingzhitong/2020 project code/深圳市环境应急综合管理平台/sz_db_sync/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/thread_concurrency-service/src/main/java/com/chuansen/system/base" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.chuansen.system.entity" />
-      <recent name="com.chuansen.system" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my namespace\project\SpringBoot-Parent\thread_concurrency-service\src\main\java\com\chuansen\system\base" />
       <recent name="D:\gitee目录\SpringBoot-Parent\emqx_mqtt-service\src\main\resources" />
       <recent name="D:\gitee目录\SpringBoot-Parent\redis-service\src\main\resources" />
       <recent name="D:\gitee目录\SpringBoot-Parent\elasticsearch_7_13_0-service\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.chuansen.system.entity" />
+      <recent name="com.chuansen.system" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -307,19 +282,33 @@
       </list>
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.SpringBootMqttApplication">
+  <component name="RunManager" selected="Application.CreatedRunnable">
+    <configuration name="CreatedRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuansen.system.base.CreatedRunnable" />
+      <module name="thread_concurrency-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chuansen.system.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreatedThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuansen.system.base.CreatedThread" />
+      <module name="thread_concurrency-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chuansen.system.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StartApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chuansen.system.StartApplication" />
       <module name="elasticsearch_7_13_0-service" />
@@ -374,13 +363,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CreatedRunnable" />
+        <item itemvalue="Application.CreatedThread" />
         <item itemvalue="Spring Boot.SpringBootMqttApplication" />
-        <item itemvalue="Spring Boot.StartApplication (1)" />
         <item itemvalue="Application.StartApplication" />
         <item itemvalue="Spring Boot.StartApplication" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -432,6 +423,7 @@
       <workItem from="1630552104145" duration="6727000" />
       <workItem from="1630566180259" duration="6849000" />
       <workItem from="1630657248180" duration="516000" />
+      <workItem from="1631076579155" duration="1210000" />
     </task>
     <servers />
   </component>
@@ -483,7 +475,12 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SpringBootParent$CreatedThread.ic" NAME="CreatedThread Coverage Results" MODIFIED="1631077746475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.chuansen.system.base.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/hash/BloomFilter.class">
