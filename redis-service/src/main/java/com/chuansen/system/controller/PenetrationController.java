@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/penetration")
 @RestController
 @Slf4j
-public class PenetrationController {
+public class  PenetrationController {
 
     @Autowired
     private RedisUtil redisUtil;

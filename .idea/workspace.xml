@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb6b5627-5edb-449f-bc5f-be80ba4532c4" name="默认更改列表" comment="" />
+    <list default="true" id="bb6b5627-5edb-449f-bc5f-be80ba4532c4" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm-service/src/main/java/com/chuansen/system/common/bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm-service/src/main/java/com/chuansen/system/common/reee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-service/src/main/java/com/chuansen/system/controller/InitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-service/src/main/java/com/chuansen/system/model/SystemLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-service/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch_7_13_0-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch_7_13_0-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch_7_13_0-service/src/main/java/com/chuansen/system/service/impl/DocServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch_7_13_0-service/src/main/java/com/chuansen/system/service/impl/DocServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elasticsearch_7_13_0-service/target/classes/com/chuansen/system/service/impl/DocServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch_7_13_0-service/target/classes/com/chuansen/system/service/impl/DocServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/controller/PenetrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/controller/PenetrationController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,8 +43,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,6 +58,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_212/src.zip!/java/lang/Thread.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -223,37 +252,39 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1630657768936" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/thread_concurrency-service/src/main/java/com/chuansen/system/base" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rabbitMQ-service/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\my namespace\project\SpringBoot-Parent\rabbitMQ-service\src\main\resources" />
+      <recent name="D:\my namespace\project\SpringBoot-Parent\kafka-service\src\main\resources" />
       <recent name="D:\my namespace\project\SpringBoot-Parent\thread_concurrency-service\src\main\java\com\chuansen\system\base" />
       <recent name="D:\gitee目录\SpringBoot-Parent\emqx_mqtt-service\src\main\resources" />
       <recent name="D:\gitee目录\SpringBoot-Parent\redis-service\src\main\resources" />
-      <recent name="D:\gitee目录\SpringBoot-Parent\elasticsearch_7_13_0-service\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.chuansen.system.entity" />
       <recent name="com.chuansen.system" />
+      <recent name="com.chuansen.system.entity" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -282,9 +313,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CreatedRunnable">
-    <configuration name="CreatedRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chuansen.system.base.CreatedRunnable" />
+  <component name="RunManager" selected="Application.demo (1)">
+    <configuration name="bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuansen.system.common.bubble" />
+      <module name="algorithm-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chuansen.system.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuansen.system.base.demo" />
       <module name="thread_concurrency-service" />
       <extension name="coverage">
         <pattern>
@@ -296,12 +340,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatedThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chuansen.system.base.CreatedThread" />
-      <module name="thread_concurrency-service" />
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuansen.system.common.demo" />
+      <module name="algorithm-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chuansen.system.base.*" />
+          <option name="PATTERN" value="com.chuansen.system.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -309,12 +353,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chuansen.system.StartApplication" />
-      <module name="elasticsearch_7_13_0-service" />
+    <configuration name="demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chuansen.system.common.demo" />
+      <module name="algorithm-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chuansen.system.base.*" />
+          <option name="PATTERN" value="com.chuansen.system.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,24 +366,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringBootMqttApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="emqx_mqtt-service" />
+    <configuration name="StartApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="rabbitMQ-Publisher-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chuansen.system.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.chuansen.system.SpringBootMqttApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="elasticsearch_7_13_0-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chuansen.system.base.*" />
+          <option name="PATTERN" value="com.chuansen.system.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,11 +394,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CreatedRunnable" />
-        <item itemvalue="Application.CreatedThread" />
-        <item itemvalue="Spring Boot.SpringBootMqttApplication" />
-        <item itemvalue="Application.StartApplication" />
-        <item itemvalue="Spring Boot.StartApplication" />
+        <item itemvalue="Application.demo (1)" />
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.demo" />
+        <item itemvalue="Spring Boot.StartApplication (1)" />
+        <item itemvalue="Application.bubble" />
       </list>
     </recent_temporary>
   </component>
@@ -424,6 +455,32 @@
       <workItem from="1630566180259" duration="6849000" />
       <workItem from="1630657248180" duration="516000" />
       <workItem from="1631076579155" duration="1210000" />
+      <workItem from="1631082165979" duration="3287000" />
+      <workItem from="1631172359959" duration="1203000" />
+      <workItem from="1631238164682" duration="10000" />
+      <workItem from="1631686990026" duration="4021000" />
+      <workItem from="1632637755085" duration="5110000" />
+      <workItem from="1632705568546" duration="10823000" />
+      <workItem from="1632791963021" duration="10800000" />
+      <workItem from="1632907348467" duration="2095000" />
+      <workItem from="1632916901860" duration="178000" />
+      <workItem from="1633677649720" duration="1787000" />
+      <workItem from="1633742624544" duration="538000" />
+      <workItem from="1633746204749" duration="14374000" />
+      <workItem from="1633935272931" duration="1258000" />
+      <workItem from="1634001749345" duration="1343000" />
+      <workItem from="1634174214894" duration="15813000" />
+      <workItem from="1634201512174" duration="609000" />
+      <workItem from="1634203038750" duration="46000" />
+      <workItem from="1634205015646" duration="461000" />
+      <workItem from="1634205500702" duration="6000" />
+      <workItem from="1635235119654" duration="2844000" />
+      <workItem from="1635239110589" duration="1842000" />
+      <workItem from="1635478750779" duration="575000" />
+      <workItem from="1635754348066" duration="699000" />
+      <workItem from="1635755458225" duration="1455000" />
+      <workItem from="1635831791582" duration="3265000" />
+      <workItem from="1636077296754" duration="2161000" />
     </task>
     <servers />
   </component>
@@ -480,6 +537,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SpringBootParent$CreatedThread.ic" NAME="CreatedThread Coverage Results" MODIFIED="1631077746475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.chuansen.system.base.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SpringBootParent$bubble.ic" NAME="bubble Coverage Results" MODIFIED="1633747569268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.chuansen.system.common.*</FILTER>
     </SUITE>
   </component>
   <component name="editorHistoryManager">

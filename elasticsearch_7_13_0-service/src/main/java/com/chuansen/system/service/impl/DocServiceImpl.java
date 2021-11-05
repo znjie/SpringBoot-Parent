@@ -99,6 +99,8 @@ public class DocServiceImpl implements DocService {
             systemLog = mapper.readValue(response.getSourceAsString(), SystemLog.class);
         } catch (JsonProcessingException e) {
             e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
         return systemLog;
     }

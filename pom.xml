@@ -18,5 +18,8 @@
         <module>emqx_mqtt-service</module>
         <!--线程并发-->
         <module>thread_concurrency-service</module>
+        <!--消息队列-->
+        <module>kafka-service</module>
+        <module>algorithm-service</module>
     </modules>
 </project>

@@ -7,11 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="elasticsearch_7_13_0-service" />
         <module name="emqx_mqtt-service" />
+        <module name="kafka-service" />
+        <module name="elasticsearch_7_13_0-service" />
+        <module name="algorithm-service" />
+        <module name="kafka" />
         <module name="redis-service" />
+        <module name="rabbitMQ-Publisher-service" />
         <module name="thread_concurrency-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafka" target="1.8" />
+      <module name="rabbitMQ-Publisher-service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kafka" options="-parameters" />
+    </option>
   </component>
 </project>
