@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb6b5627-5edb-449f-bc5f-be80ba4532c4" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-service/src/main/java/com/chuansen/system/common/bubble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/algorithm-service/src/main/java/com/chuansen/system/common/reee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-service/src/main/java/com/chuansen/system/controller/InitController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-service/src/main/java/com/chuansen/system/model/SystemLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-service/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch_7_13_0-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch_7_13_0-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch_7_13_0-service/src/main/java/com/chuansen/system/service/impl/DocServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch_7_13_0-service/src/main/java/com/chuansen/system/service/impl/DocServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch_7_13_0-service/target/classes/com/chuansen/system/service/impl/DocServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch_7_13_0-service/target/classes/com/chuansen/system/service/impl/DocServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/controller/PenetrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-service/src/main/java/com/chuansen/system/controller/PenetrationController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.demo (1)">
+  <component name="RunManager" selected="Application.bubble">
     <configuration name="bubble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chuansen.system.common.bubble" />
       <module name="algorithm-service" />
@@ -394,7 +378,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.demo (1)" />
         <item itemvalue="Application.demo" />
         <item itemvalue="Application.demo" />
         <item itemvalue="Spring Boot.StartApplication (1)" />
@@ -480,7 +463,7 @@
       <workItem from="1635754348066" duration="699000" />
       <workItem from="1635755458225" duration="1455000" />
       <workItem from="1635831791582" duration="3265000" />
-      <workItem from="1636077296754" duration="2161000" />
+      <workItem from="1636077296754" duration="5421000" />
     </task>
     <servers />
   </component>
